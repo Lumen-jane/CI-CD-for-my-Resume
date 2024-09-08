@@ -32,17 +32,20 @@ DOCKER_PASSWORD: Your Docker Hub password
 
 4. Running Tests Locally
 You can run tests locally before pushing changes to ensure everything is working correctly:
-`npm test`
+
+ `npm test`
 
 5. Building the Docker Image
 If you want to build the Docker image locally, use the following command:
-`docker build -t my-node-app .`
+ 
+ `docker build -t my-node-app .`
 
 6. Pushing Changes to GitHub
 To trigger the CI/CD pipeline, push your changes to the main branch:
-`git add .
-git commit -m "Describe your changes"
-git push origin main
+ 
+ `git add .
+ git commit -m "Your Commit Message"
+ git push origin main
 `
 
 CI/CD Pipeline
