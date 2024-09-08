@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build-test  # This job runs only if the build-test job is successful
 
-    steps:
+    steps: 
       - name: Checkout Code
         uses: actions/checkout@v3  # Checks out the repository code
 
