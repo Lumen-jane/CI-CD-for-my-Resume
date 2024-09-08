@@ -22,7 +22,7 @@ jobs:
           DOCKERHUB_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           IMAGE_NAME: my-node-app
          run: |
-          docker build -t $DOCKER_USERNAME/$IMAGE_NAME .
+          docker build -t $IMAGE_NAME .
           docker tag my-node-app:latest ${{ secrets.DOCKER_USERNAME }}/my-node-app:staging
           docker push $DOCKER_USERNAME/$IMAGE_NAME:latest
 
