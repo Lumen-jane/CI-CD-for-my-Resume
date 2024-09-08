@@ -22,23 +22,23 @@ cd CI-CD-for-my-Resume`
 2. Install Dependencies
 The project uses npm for dependency management. Run the following command to install dependencies:
 
-`npm install`
+ `npm install`
 
-4. Set up GitHub Secrets:
+3. Set up GitHub Secrets:
 You need to integrate your own Docker Hub accounts with the CI/CD pipeline, this will allow automated building and pushing of Docker images as part of the deployment process.
 In your GitHub repository, go to Settings > Secrets and variables > Actions Add the following secrets:
 DOCKER_USERNAME: Your Docker Hub username
 DOCKER_PASSWORD: Your Docker Hub password
 
-5. Running Tests Locally
+4. Running Tests Locally
 You can run tests locally before pushing changes to ensure everything is working correctly:
 `npm test`
 
-6. Building the Docker Image
+5. Building the Docker Image
 If you want to build the Docker image locally, use the following command:
 `docker build -t my-node-app .`
 
-7. Pushing Changes to GitHub
+6. Pushing Changes to GitHub
 To trigger the CI/CD pipeline, push your changes to the main branch:
 `git add .
 git commit -m "Describe your changes"
