@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Project
 CI/CD Pipeline for Node.js Application
 This repository contains a CI/CD pipeline setup for a Node.js application using Docker and GitHub Actions. The pipeline automates testing, building, and deploying the application to a staging environment.
@@ -53,3 +54,7 @@ Automated Testing: Runs unit tests using npm test.
 Build Docker Image: Builds the Docker image for the application.
 Push Docker Image: Pushes the Docker image to Docker Hub with a staging tag.
 Deploy to Staging: Deploys the Docker image to the staging environment. (Customize this step based on your staging setup.)
+=======
+# CI-CD-for-my-Resume
+This repository contains the CI/CD pipeline tasks and automation scripts designed for my job application as a DevOps engineer. It showcases my skills in setting up automated build, test, and deployment workflows using Docker and GitHub Actions.
+>>>>>>> abc082f60156909d0e5c6f5373027474156c1637
