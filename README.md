@@ -1,6 +1,5 @@
+# CI/CD Pipeline for Node.js Application.
 
-# My Project
-CI/CD Pipeline for Node.js Application
 This repository contains a CI/CD pipeline setup for a Node.js application using Docker and GitHub Actions. 
 
 The pipeline automates testing, building, and deploying the application to a staging environment.
