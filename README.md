@@ -43,10 +43,12 @@ If you want to build the Docker image locally, use the following command:
 6. Pushing Changes to GitHub
 To trigger the CI/CD pipeline, push your changes to the main branch:
  
- `git add .
- git commit -m "Your Commit Message"
- git push origin main
-`
+  `git add .`
+ 
+ ` git commit -m "Your Commit Message"`
+ 
+  `git push origin main`
+
 
 CI/CD Pipeline
 Workflow Overview
@@ -57,7 +59,7 @@ Push Docker Image: Pushes the Docker image to Docker Hub with a staging tag.
 Deploy to Staging: Deploys the Docker image to the staging environment. (Customize this step based on your staging setup.
 
 
-Here is a detailed documwntation of this project:
+Here is a detailed documentation of this project:
   http://surl.li/iizkiz
 
 Feel free to add your contribution.
