@@ -17,33 +17,34 @@ To get started with this project, follow these steps:
 
 1. Clone the Repository
 
-git clone https://github.com/Lumen-jane/CI-CD-for-my-Resume.git
-cd CI-CD-for-my-Resume
+`git clone https://github.com/Lumen-jane/CI-CD-for-my-Resume.git
+cd CI-CD-for-my-Resume`
 
 2. Install Dependencies
 The project uses npm for dependency management. Run the following command to install dependencies:
-npm install
 
-3. Set up GitHub Secrets:
+`npm install`
+
+4. Set up GitHub Secrets:
 You need to integrate your own Docker Hub accounts with the CI/CD pipeline, this will allow automated building and pushing of Docker images as part of the deployment process.
 In your GitHub repository, go to Settings > Secrets and variables > Actions Add the following secrets:
 DOCKER_USERNAME: Your Docker Hub username
 DOCKER_PASSWORD: Your Docker Hub password
 
-4. Running Tests Locally
+5. Running Tests Locally
 You can run tests locally before pushing changes to ensure everything is working correctly:
-npm test
+`npm test`
 
-5. Building the Docker Image
+6. Building the Docker Image
 If you want to build the Docker image locally, use the following command:
-docker build -t my-node-app .
+`docker build -t my-node-app .`
 
-6. Pushing Changes to GitHub
+7. Pushing Changes to GitHub
 To trigger the CI/CD pipeline, push your changes to the main branch:
-git add .
+`git add .
 git commit -m "Describe your changes"
 git push origin main
-
+`
 
 CI/CD Pipeline
 Workflow Overview
@@ -55,7 +56,7 @@ Deploy to Staging: Deploys the Docker image to the staging environment. (Customi
 
 
 Here is a detailed documwntation of this project:
-http://surl.li/iizkiz
-
+`http://surl.li/iizkiz
+`
 Feel free to add your contribution.
 
